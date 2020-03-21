@@ -27,11 +27,11 @@ In RL, the agent takes an **action**, observes the state of the environment, and
 
 ### Development Concepts
 * Episodes - An episode consists of all of the time steps in an MDP from the initial state until the environment reaches the terminal state. 
-* Policy ( \pi )
+* Policy ( π )
 * Value Function
 * Q-Learning (q)
 * Deep Q-Learning
-* Learning Rate ( \alpha )
+* Learning Rate ( <img src="https://latex.codecogs.com/gif.latex?\alpha" /> )
 * Exploitation v. Exploration
 
 ### Narrative
@@ -48,9 +48,10 @@ Voldemort loves unicorns, to eat (drink their blood specifically).
 Get the maximum amount of oats, avoid Voldemort
 
 ### Range of motion
-
+<img src="images/rangeOfMotion.png" height=300>
 
 ### Grid Scoring
+<img src="images/gridScoring.png" height=300>
 
 ## Resources
 * [Use Reinforcement Learning with Amazon SageMaker](https://docs.aws.amazon.com/sagemaker/latest/dg/reinforcement-learning.html)
