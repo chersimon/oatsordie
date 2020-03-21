@@ -53,6 +53,9 @@ Get the maximum amount of oats, avoid Voldemort
 ### Grid Scoring
 <img src="images/gridScoring.png" height=300>
 
+## Let's Play!
+Open the notebook. Read it thoroughly first. There a bugs in the code on purpose so you don't just hammer shift-return the whole way through. Think through what the optimal strategy will be. Take some time to understand the environment provided by the [Open AI Gym](https://gym.openai.com/). Win the game and play to learn!
+
 ## Resources
 * [Use Reinforcement Learning with Amazon SageMaker](https://docs.aws.amazon.com/sagemaker/latest/dg/reinforcement-learning.html)
 * [Managed Reinforcement Learning with Amazon SageMaker](https://aws.amazon.com/blogs/aws/amazon-sagemaker-rl-managed-reinforcement-learning-with-amazon-sagemaker/)
