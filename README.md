@@ -21,10 +21,9 @@ In RL, the agent takes an **action**, observes the state of the environment, and
 * **Action** ( A ) - What the agent does. For example, the robot takes a step forward.
 * **Probability** ( P ) is a probability matrix that tells the probability of moving from one state to the other.
 * **Reward** ( R ) - A number that represents the value of the state that resulted from the last action that the agent took. For example, if the goal is for a robot to find treasure, the reward for finding treasure might be 5, and the reward for not finding treasure might be 0. The RL model attempts to find a strategy that optimizes the cumulative reward over the long term. This strategy is called a **policy**. 
-* **Discount Factor** ( \gamma )
+* **Discount Factor** ( <img src="https://latex.codecogs.com/gif.latex?\gamma" /> )
 
-<img src="https://latex.codecogs.com/gif.latex?O_t=\text { Onset event at time bin } t " /> 
-<img src="https://latex.codecogs.com/gif.latex?O_t=\gamma" /> 
+ 
 
 ### Development Concepts
 * Episodes - An episode consists of all of the time steps in an MDP from the initial state until the environment reaches the terminal state. 
