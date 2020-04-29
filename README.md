@@ -13,7 +13,7 @@ In RL, the agent takes an **action**, observes the state of the environment, and
 ## Terminology
 ### Markov Decision Process
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/MDP-diagram.png" height=200>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/MDP-diagram.png" width="400">
 
 * **Agent** - Acts for a user or other program in a relationship of agency, which derives from the Latin agere (to do): an agreement to act on one's behalf. Such "action on behalf of" implies the authority to decide which, if any, action is appropriate.
 * **Environment** - Defines the space in which the RL model operates. This can be either a real-world environment or a simulator. For example, if you train a physical autonomous vehicle on a physical road, that would be a real-world environment. If you train a computer program that models an autonomous vehicle driving on a road, that would be a simulator
@@ -21,40 +21,25 @@ In RL, the agent takes an **action**, observes the state of the environment, and
 * **Action** ( A ) - What the agent does. For example, the robot takes a step forward.
 * **Probability** ( P ) is a probability matrix that tells the probability of moving from one state to the other.
 * **Reward** ( R ) - A number that represents the value of the state that resulted from the last action that the agent took. For example, if the goal is for a robot to find treasure, the reward for finding treasure might be 5, and the reward for not finding treasure might be 0. The RL model attempts to find a strategy that optimizes the cumulative reward over the long term. This strategy is called a **policy**. 
-* **Discount Factor** ( <img src="https://latex.codecogs.com/gif.latex?\gamma" /> )
+* **Discount Factor** \\( \gamma \\)
 
- 
+## Play of Game
 
-### Development Concepts
-* Episodes - An episode consists of all of the time steps in an MDP from the initial state until the environment reaches the terminal state. 
-* Policy ( π )
-* Value Function
-* Q-Learning (q)
-* Deep Q-Learning
-* Learning Rate ( <img src="https://latex.codecogs.com/gif.latex?\alpha" /> )
-* Exploitation v. Exploration
-
-### Narrative
 Unicorns love magic oats
 
-<img src="images/oats.jpg" height=300>
+<img src="images/oats.jpg" width="200">
 
 Voldemort loves unicorns, to eat (drink their blood specifically).
 
-<img src="images/Voldemort.png" height=300>
+<img src="images/Voldemort.png" width="200">
 
 
 ### Objective
 Get the maximum amount of oats, avoid Voldemort
 
-### Range of motion
-<img src="images/rangeOfMotion.png" height=300>
-
-### Grid Scoring
-<img src="images/gridScoring.png" height=300>
 
 ## Let's Play!
-Open the notebook. Read it thoroughly first. There a bugs in the code on purpose so you don't just hammer shift-return the whole way through. Think through what the optimal strategy will be. Take some time to understand the environment provided by the [Open AI Gym](https://gym.openai.com/). Win the game and play to learn!
+Open the [notebook](competition.ipnb). Read it thoroughly first. There a hints in the code. To win don't just hammer shift-return the whole way through. Think through what the optimal strategy will be. Take some time to understand the environment provided by the [Open AI Gym](https://gym.openai.com/). Win the game and play to learn!
 
 ## Resources
 * [Use Reinforcement Learning with Amazon SageMaker](https://docs.aws.amazon.com/sagemaker/latest/dg/reinforcement-learning.html)
